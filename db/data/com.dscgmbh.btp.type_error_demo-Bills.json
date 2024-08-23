@@ -1,0 +1,5 @@
+[
+  { "ID": 1, "payer_ID": 1, "descr": "id1, py1", "amout": 11.1 },
+  { "ID": 2, "payer_ID": 2, "descr": "id2, py2", "amout": 22.2 },
+  { "ID": 3, "payer_ID": 1, "descr": "id3, py1", "amout": 33.3 }
+]

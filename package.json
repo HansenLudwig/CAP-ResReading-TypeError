@@ -1,0 +1,38 @@
+{
+  "name": "reading_type_error",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@cap-js/sqlite": "1.7.3",
+    "@sap-cloud-sdk/http-client": "3.18.1",
+    "@sap/cds": "^8.1.1",
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "8.1.2",
+    "@sap/ux-specification": "^1.120.17",
+    "ts-node": "10.9.2"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-demo": "cds watch --open demo/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-demo_type_error": "cds watch --open demo_type_error/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/demo",
+    "app/demo_type_error"
+  ],
+  "cds": {
+    "requires": {
+      "auth": {
+        "kind": "dummy"
+      },
+      "db": {
+        "kind": "better-sqlite"
+      }
+    }
+  }
+}
