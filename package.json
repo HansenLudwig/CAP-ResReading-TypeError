@@ -6,15 +6,12 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@cap-js/sqlite": "1.7.3",
-    "@sap-cloud-sdk/http-client": "3.18.1",
-    "@sap/cds": "^8.1.1",
-    "express": "4.19.2"
+    "@cap-js/hana": "^1",
+    "@sap/cds": "^8.1.1"
   },
   "devDependencies": {
     "@sap/cds-dk": "8.1.2",
-    "@sap/ux-specification": "^1.120.17",
-    "ts-node": "10.9.2"
+    "@sap/ux-specification": "^1.120.17"
   },
   "scripts": {
     "start": "cds-serve",
@@ -29,10 +26,7 @@
     "requires": {
       "auth": {
         "kind": "dummy"
-      },
-      "db": {
-        "kind": "better-sqlite"
-      }
+      }      
     }
   }
 }

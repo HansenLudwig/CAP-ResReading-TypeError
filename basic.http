@@ -1,0 +1,13 @@
+GET http://localhost:4004/odata/v4/main-service/Bills(ID=1)
+
+###
+PATCH http://localhost:4004/odata/v4/main-service/Bills(ID=1)
+Accept: application/json
+content-type: application/json
+
+{
+  "ID": 1,
+  "payer_ID": 1,
+  "descr": "id1, py1, from basic.http",
+  "amount": 11.11
+}

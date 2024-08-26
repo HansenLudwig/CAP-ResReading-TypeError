@@ -1,1 +1,36 @@
-/node_modules
+# CAP payint-poc
+_out
+*.db
+*.db-journal
+connection.properties
+default-*.json
+.cdsrc-private.json
+gen/
+dist/
+node_modules/
+target/
+Makefile_*.mta
+
+# Web IDE, App Studio
+.che/
+.gen/
+
+# MTA
+*_mta_build_tmp
+*.mtar
+mta_archives/
+resources*/
+
+# Other
+.DS_Store
+*.orig
+*.log
+
+*.iml
+*.flattened-pom.xml
+
+# IDEs
+.vscode
+.env
+@cds-models
+# .idea
