@@ -1,3 +1,4 @@
+### Service on Local
 GET http://localhost:4004/odata/v4/main-service/Bills(ID=1)
 
 ###
@@ -12,7 +13,7 @@ content-type: application/json
   "amount": 11.11
 }
 
-###
+### Service on BTP against HANA database
 GET https://dsc-btp-demo-demo-reading-type-error-srv.cfapps.eu20-001.hana.ondemand.com/odata/v4/main-service/Bills(ID=2)
 
 ###
