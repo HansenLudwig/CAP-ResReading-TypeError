@@ -19,7 +19,7 @@
     "start": "cds-serve",
     "watch-demo": "cds watch --open demo/webapp/index.html?sap-ui-xx-viewCache=false",
     "watch-demo_type_error": "cds watch --open demo_type_error/webapp/index.html?sap-ui-xx-viewCache=false",
-    "predeploy": "cds build && mbt build -t gen --mtar mta.tar",
+    "deploy-prep": "cds build && mbt build -t gen --mtar mta.tar",
     "deploy": "cf deploy gen/mta.tar"
   },
   "sapux": [

@@ -11,3 +11,18 @@ content-type: application/json
   "descr": "id1, py1, from basic.http",
   "amount": 11.11
 }
+
+###
+GET https://dsc-btp-demo-demo-reading-type-error-srv.cfapps.eu20-001.hana.ondemand.com/odata/v4/main-service/Bills(ID=2)
+
+###
+PATCH https://dsc-btp-demo-demo-reading-type-error-srv.cfapps.eu20-001.hana.ondemand.com/odata/v4/main-service/Bills(ID=1)
+Accept: application/json
+content-type: application/json
+
+{
+  "ID": 1,
+  "payer_ID": 1,
+  "descr": "id1, py1, from basic.http",
+  "amount": 11.11
+}
